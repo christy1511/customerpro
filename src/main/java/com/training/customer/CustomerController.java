@@ -27,7 +27,7 @@ public class CustomerController {
 	@Autowired
 	CustomerService cusSer;
 	
-	@PostMapping(value = "/addCusto")
+	@PostMapping(value = "/addCustoerror")
 	public String addCustomer(@RequestBody Customer cus) {
 		return cusSer.addCustomer(cus);
 
